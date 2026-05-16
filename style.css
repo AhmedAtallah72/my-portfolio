@@ -190,6 +190,30 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-st
 .form-group textarea{resize:vertical;min-height:110px}
 .form-group input::placeholder,.form-group textarea::placeholder{color:var(--text-muted)}
 
+/* ===== Education & Certifications ===== */
+.edu-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:32px;margin-top:44px;align-items:start}
+.edu-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px;transition:var(--ease)}
+.edu-block:hover{border-color:var(--border-hover);box-shadow:var(--shadow-glow)}
+.edu-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:14px}
+.edu-icon{width:48px;height:48px;border-radius:var(--r-md);background:var(--accent-glow);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.edu-icon i{width:22px;height:22px;color:var(--accent)}
+.edu-degree{font-size:.95rem;font-weight:700}
+.edu-school{font-size:.84rem;color:var(--accent);font-weight:600}
+.edu-date{font-size:.75rem;color:var(--text-muted);margin-top:3px}
+.edu-desc{font-size:.83rem;color:var(--text-secondary);line-height:1.7}
+.certs-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px}
+.certs-title{display:flex;align-items:center;gap:8px;font-size:.95rem;font-weight:700;margin-bottom:20px}
+.certs-title i{width:18px;height:18px;color:var(--gold)}
+.certs-list{display:flex;flex-direction:column;gap:2px}
+.cert-item{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:var(--r-sm);transition:var(--ease);text-decoration:none;color:inherit}
+.cert-item:hover{background:var(--surface)}
+.cert-dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.cert-dot.gold{background:var(--gold)}
+.cert-name{font-size:.82rem;font-weight:600}
+.cert-issuer{font-size:.72rem;color:var(--text-muted);margin-top:2px}
+.cert-link-icon{width:13px;height:13px;color:var(--text-muted);margin-left:auto;flex-shrink:0;opacity:.5}
+.cert-item:hover .cert-link-icon{opacity:1;color:var(--accent)}
+
 /* ===== Footer ===== */
 .footer{padding:36px 0;border-top:1px solid var(--border)}
 .footer .container{display:flex;align-items:center;justify-content:space-between}
@@ -213,6 +237,7 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-st
   .about-visual{max-width:360px;margin:0 auto}
   .skills-grid{grid-template-columns:repeat(2,1fr)}
   .projects-grid{grid-template-columns:repeat(2,1fr)}
+  .edu-grid{grid-template-columns:1fr}
 }
 @media(max-width:768px){
   .section{padding:68px 0}
@@ -222,6 +247,7 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-st
   .projects-grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr}
+  .edu-grid{grid-template-columns:1fr}
   .hero-stats{flex-wrap:wrap;gap:20px}
   .footer .container{flex-direction:column;gap:14px;text-align:center}
   .exp-card{flex-direction:column;gap:14px}
