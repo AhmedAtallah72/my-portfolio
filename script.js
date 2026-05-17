@@ -45,19 +45,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// ===== Contact form (demo) =====
-const form = document.getElementById('contactForm');
-form?.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const btn = form.querySelector('button[type="submit"]');
-  btn.textContent = 'Message Sent ✓';
-  btn.style.background = 'var(--accent2)';
-  setTimeout(() => {
-    btn.textContent = 'Send Message';
-    btn.style.background = '';
-    form.reset();
-  }, 2500);
-});
-
-// ===== Lucide icons init =====
+// ===== Contact form — handled by Formspree (real email delivery) =====
+// Form submits natively to https://formspree.io — no JS needed.
 if (window.lucide) lucide.createIcons();

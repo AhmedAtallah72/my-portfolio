@@ -190,6 +190,7 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-st
 .form-group textarea{resize:vertical;min-height:110px}
 .form-group input::placeholder,.form-group textarea::placeholder{color:var(--text-muted)}
 
+.linkedin-icon{background:#0077b5!important;color:#fff!important}
 /* ===== Education & Certifications ===== */
 .edu-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:32px;margin-top:44px;align-items:start}
 .edu-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px;transition:var(--ease)}
