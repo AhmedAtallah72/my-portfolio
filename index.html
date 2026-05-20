@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title>Ahmed Ibrahim Atallah — Data & BI Analyst</title>
-  <meta name="description" content="Portfolio of Ahmed Ibrahim Atallah, a Data & BI Analyst based in Riyadh specializing in Power BI, SQL, Python, and turning complex data into actionable business intelligence."/>
+  <meta name="description" content="Portfolio of Ahmed Ibrahim Atallah, a Data & BI Analyst based in Jeddah, Saudi Arabia specializing in Power BI, SQL, Python, and turning complex data into actionable business intelligence."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
@@ -48,7 +48,7 @@
 <section class="hero" id="home">
   <div class="container">
     <div class="hero-content">
-      <div class="hero-badge"><span class="dot"></span>Based in Riyadh, Saudi Arabia</div>
+      <div class="hero-badge"><span class="dot"></span>Based in Jeddah, Makkah, Saudi Arabia</div>
       <h1>Ahmed Ibrahim Atallah</h1>
       <div class="hero-role"><span class="grad">Data & BI Analyst</span></div>
       <p>Transforming Raw Data into Business Value | SQL · Excel · Power BI · Python</p>
@@ -59,7 +59,7 @@
       <div class="hero-stats">
         <div><div class="stat-num grad">15+</div><div class="stat-label">BI Dashboards</div></div>
         <div><div class="stat-num grad">3+</div><div class="stat-label">Years Experience</div></div>
-        <div><div class="stat-num grad">$755M</div><div class="stat-label">Data Monitored</div></div>
+        <div><div class="stat-num grad">10+</div><div class="stat-label">Certifications</div></div>
       </div>
     </div>
     <div class="hero-visual">
@@ -88,7 +88,7 @@
 <section class="about section" id="about">
   <div class="container">
     <div class="about-visual fade-in">
-      <img src="profile.png" alt="Ahmed Ibrahim Atallah" style="width:280px;height:280px;object-fit:cover;border-radius:50%;border:4px solid var(--accent);box-shadow:0 0 0 8px var(--accent-glow),var(--shadow-glow);display:block;margin:0 auto"/>
+      <img src="profile.png" alt="Ahmed Ibrahim Atallah" class="profile-img"/>
     </div>
     <div class="about-content fade-in">
       <span class="section-label"><i data-lucide="user-circle"></i>About Me</span>
@@ -178,6 +178,7 @@
           <span class="skill-tag">KPI Dashboards</span>
           <span class="skill-tag">Data Visualization</span>
           <span class="skill-tag">Data Storytelling</span>
+          <span class="skill-tag">Microsoft Fabric</span>
         </div>
       </div>
       <div class="skill-card fade-in">
@@ -190,6 +191,8 @@
           <span class="skill-tag">Data Cleaning</span>
           <span class="skill-tag">ETL</span>
           <span class="skill-tag">Statistics</span>
+          <span class="skill-tag">Informatica PowerCenter</span>
+          <span class="skill-tag">Data Warehouse</span>
         </div>
       </div>
       <div class="skill-card fade-in">
@@ -222,70 +225,76 @@
 <!-- ===== PROJECTS ===== -->
 <section class="projects section" id="projects">
   <div class="container">
-    <div style="text-align:center" class="fade-in">
-      <span class="section-label"><i data-lucide="folder-open"></i>Portfolio</span>
-      <h2 class="section-title">Featured <span class="grad">Projects</span></h2>
-      <p class="section-desc" style="margin:0 auto">Real-world business challenges solved through data analysis and interactive dashboards.</p>
+    <div class="projects-header fade-in">
+      <div>
+        <span class="section-label"><i data-lucide="folder-open"></i>Selected Work</span>
+        <h2 class="section-title">Featured <span class="grad">Projects</span></h2>
+        <p class="section-desc">Real-world business challenges solved through data analysis and interactive dashboards.</p>
+      </div>
     </div>
-    <div class="projects-grid">
 
-      <!-- Project 1 — Customer Experience Quality -->
-      <div class="project-card fade-in">
-        <div class="project-thumb">
-          <img src="proj1.png" alt="Customer Experience Quality Dashboard" style="width:100%;height:100%;object-fit:cover"/>
-        </div>
-        <div class="project-body">
-          <h3>Customer Experience Quality</h3>
-          <p>Designed a comprehensive KPI-tracking dashboard for a government entity — monitoring Trust Score (68.74), SLA compliance, citizen sentiment analysis, and gap alerts across 36K interactions to improve public service delivery.</p>
-          <div class="project-tags">
-            <span class="project-tag">Power BI</span>
-            <span class="project-tag gold">DAX</span>
-            <span class="project-tag">SQL</span>
-            <span class="project-tag">Sentiment Analysis</span>
-          </div>
-          <div class="project-actions">
-            <a href="https://drive.google.com/drive/folders/1y9wzpEed8keHRA7W_vffvqOirYSYLNx7?usp=sharing" target="_blank" class="btn btn-primary"><i data-lucide="external-link"></i>View Project</a>
-          </div>
+    <!-- Project 1 — Featured large -->
+    <div class="work-featured fade-in">
+      <div class="work-featured-img">
+        <img src="proj1.png" alt="Customer Experience Quality"/>
+        <div class="work-overlay">
+          <a href="https://drive.google.com/drive/folders/1y9wzpEed8keHRA7W_vffvqOirYSYLNx7?usp=sharing" target="_blank" class="work-cta"><i data-lucide="external-link"></i>View Project</a>
         </div>
       </div>
-
-      <!-- Project 2 — Loan Portfolio -->
-      <div class="project-card fade-in">
-        <div class="project-thumb">
-          <img src="proj2.png" alt="Business Risk & Loan Analysis" style="width:100%;height:100%;object-fit:cover"/>
+      <div class="work-featured-info">
+        <div class="work-number">01</div>
+        <h3>Customer Experience Quality</h3>
+        <p>Designed a 3-page Power BI solution (Overview · Trust VS Gap · Performance vs Areas) for a government entity — monitoring Trust Score Avg <strong>68.74</strong>, CES Score <strong>3.97</strong>, Avg SLA Days <strong>2.90</strong>, Negative Sentiment <strong>31%</strong>, and Gap Alerts across <strong>36K</strong> interactions to improve public service delivery.</p>
+        <div class="work-tags">
+          <span class="work-tag">Power BI</span>
+          <span class="work-tag accent">DAX</span>
+          <span class="work-tag">SQL</span>
+          <span class="work-tag">Sentiment Analysis</span>
         </div>
-        <div class="project-body">
+        <a href="https://drive.google.com/drive/folders/1y9wzpEed8keHRA7W_vffvqOirYSYLNx7?usp=sharing" target="_blank" class="work-link">View Case Study <i data-lucide="arrow-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="work-grid">
+
+      <div class="work-card fade-in">
+        <div class="work-card-img">
+          <img src="proj2.png" alt="Business Risk & Loan Analysis"/>
+          <div class="work-overlay">
+            <a href="https://drive.google.com/drive/folders/1b_FFmgubhOQSN_4y5LtrHirIobexLtAB?usp=sharing" target="_blank" class="work-cta"><i data-lucide="external-link"></i>View Project</a>
+          </div>
+        </div>
+        <div class="work-card-info">
+          <div class="work-number-sm">02</div>
           <h3>Business Risk & Loan Analysis</h3>
-          <p>Engineered a risk assessment dashboard monitoring <strong>$755M</strong> in total sales and loan distributions. Identified that 51% of the portfolio was in "High Risk" categories, enabling strategic revision of credit criteria that <strong>improved collection forecasts by 15%</strong>.</p>
-          <div class="project-tags">
-            <span class="project-tag">Power BI</span>
-            <span class="project-tag gold">Statistics</span>
-            <span class="project-tag">Risk Modeling</span>
-            <span class="project-tag">Forecasting</span>
+          <p>Engineered a 4-page risk assessment solution (Home · Overview · Cash · Loans) covering full portfolio analysis. Identified high-risk segments enabling strategic revision of credit criteria that <strong>improved collection forecasts by 15%</strong>.</p>
+          <div class="work-tags">
+            <span class="work-tag">Power BI</span>
+            <span class="work-tag accent">Statistics</span>
+            <span class="work-tag">Risk Modeling</span>
           </div>
-          <div class="project-actions">
-            <a href="https://drive.google.com/drive/folders/1b_FFmgubhOQSN_4y5LtrHirIobexLtAB?usp=sharing" target="_blank" class="btn btn-primary"><i data-lucide="external-link"></i>View Project</a>
-          </div>
+          <a href="https://drive.google.com/drive/folders/1b_FFmgubhOQSN_4y5LtrHirIobexLtAB?usp=sharing" target="_blank" class="work-link">View Case Study <i data-lucide="arrow-right"></i></a>
         </div>
       </div>
 
-      <!-- Project 3 — Supermarket -->
-      <div class="project-card fade-in">
-        <div class="project-thumb">
-          <img src="proj3.png" alt="Supermarket Operational Insights" style="width:100%;height:100%;object-fit:cover"/>
+      <div class="work-card fade-in">
+        <div class="work-card-img">
+          <img src="proj3.png" alt="Super Market Operational Insights"/>
+          <div class="work-overlay">
+            <a href="https://drive.google.com/drive/folders/1X34OYX9DOocHEiQ9rh8yFHnO2W6gKnBC?usp=sharing" target="_blank" class="work-cta"><i data-lucide="external-link"></i>View Project</a>
+          </div>
         </div>
-        <div class="project-body">
+        <div class="work-card-info">
+          <div class="work-number-sm">03</div>
           <h3>Super Market Operational Insights</h3>
-          <p>Built a multi-year sales dashboard tracking <strong>54M SAR</strong> in revenue and <strong>17M SAR</strong> in profit across Electronics and Home Appliances. Pinpointed regional trends enabling a 32% profit margin benchmark through targeted marketing in Riyadh and Jeddah.</p>
-          <div class="project-tags">
-            <span class="project-tag">Power BI</span>
-            <span class="project-tag gold">ETL</span>
-            <span class="project-tag">DAX</span>
-            <span class="project-tag">Regional Analysis</span>
+          <p>Multi-year sales dashboard tracking <strong>54M SAR</strong> revenue and <strong>17M SAR</strong> profit across Electronics, Home Appliances, Fashion, and more. Top product: iPhone 14 (1.78M SAR). Pinpointed regional trends enabling a <strong>32% profit margin</strong> benchmark.</p>
+          <div class="work-tags">
+            <span class="work-tag">Power BI</span>
+            <span class="work-tag accent">ETL</span>
+            <span class="work-tag">DAX</span>
           </div>
-          <div class="project-actions">
-            <a href="https://drive.google.com/drive/folders/1X34OYX9DOocHEiQ9rh8yFHnO2W6gKnBC?usp=sharing" target="_blank" class="btn btn-primary"><i data-lucide="external-link"></i>View Project</a>
-          </div>
+          <a href="https://drive.google.com/drive/folders/1X34OYX9DOocHEiQ9rh8yFHnO2W6gKnBC?usp=sharing" target="_blank" class="work-link">View Case Study <i data-lucide="arrow-right"></i></a>
         </div>
       </div>
 
@@ -300,9 +309,10 @@
       <span class="section-label"><i data-lucide="graduation-cap"></i>Education & Certifications</span>
       <h2 class="section-title">Academic <span class="grad">Background</span></h2>
     </div>
-    <div class="edu-grid">
-      <!-- Education -->
-      <div class="edu-block fade-in">
+
+    <!-- Education cards row -->
+    <div class="edu-row fade-in">
+      <div class="edu-block">
         <div class="edu-header">
           <div class="edu-icon"><i data-lucide="university"></i></div>
           <div>
@@ -311,106 +321,114 @@
             <div class="edu-date">Sep 2019 — Jul 2023</div>
           </div>
         </div>
-        <p class="edu-desc">Relevant coursework: Database Management (SQL), Data Structures, Algorithms, Statistical Analysis, and Software Engineering. Developed a strong foundation in computational logic and analytical problem-solving.</p>
+        <p class="edu-desc">Relevant coursework: Database Management (SQL), Data Structures, Algorithms, Statistical Analysis, and Software Engineering. Strong foundation in computational logic and analytical problem-solving.</p>
       </div>
-
-      <!-- NTI Training -->
-      <div class="edu-block fade-in" style="margin-top:20px">
+      <div class="edu-block">
         <div class="edu-header">
           <div class="edu-icon gold"><i data-lucide="cpu"></i></div>
           <div>
             <div class="edu-degree">Artificial Intelligence Summer Training</div>
-            <div class="edu-school">National Telecommunication Institute (NTI) · Internship</div>
-            <div class="edu-date">Aug 2022 · 1 month — El Mansoura, Egypt</div>
+            <div class="edu-school">National Telecommunication Institute (NTI) · ITIDA</div>
+            <div class="edu-date">Aug 2022 · 120 hrs — El Mansoura, Egypt</div>
           </div>
         </div>
-        <p class="edu-desc">Completed a 120-hour AI and Data Science program (90hrs technical + 30hrs professional skills). Covered machine learning fundamentals, neural networks, and data preprocessing. Built foundational knowledge in AI algorithms and Python-based data workflows. Developed professional skills including communication, presentation, and interview techniques.</p>
-        <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
-          <span class="skill-tag" style="font-size:.72rem">Python</span>
-          <span class="skill-tag" style="font-size:.72rem">Machine Learning</span>
-          <span class="skill-tag" style="font-size:.72rem">AI Fundamentals</span>
-          <span class="skill-tag" style="font-size:.72rem">ITIDA · NTI</span>
+        <p class="edu-desc">Covered ML fundamentals, neural networks, and data preprocessing. Built foundational knowledge in AI algorithms and Python-based workflows. Developed professional skills: communication, presentation, and interview techniques.</p>
+        <div style="margin-top:12px;display:flex;gap:7px;flex-wrap:wrap">
+          <span class="work-tag">Python</span>
+          <span class="work-tag">Machine Learning</span>
+          <span class="work-tag accent">AI Fundamentals</span>
         </div>
       </div>
+    </div>
 
-      <!-- Certifications -->
-      <div class="certs-block fade-in">
-        <h3 class="certs-title"><i data-lucide="award"></i> Key Certifications</h3>
-        <div class="certs-list">
-          <a href="https://www.credly.com/badges/a150b360-dc1a-4c50-bf55-31f8041e3b37/public_url" target="_blank" class="cert-item">
-            <div class="cert-dot gold"></div>
-            <div>
-              <div class="cert-name">McKinsey Forward Program</div>
-              <div class="cert-issuer">McKinsey & Company</div>
-            </div>
-            <i data-lucide="external-link" class="cert-link-icon"></i>
-          </a>
-          <a href="https://learn.365datascience.com/c/c8e332ea25/" target="_blank" class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Data Strategy</div>
-              <div class="cert-issuer">365 Data Science · Mar 2026</div>
-            </div>
-            <i data-lucide="external-link" class="cert-link-icon"></i>
-          </a>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Communication & Presentation Skills for Analysts</div>
-              <div class="cert-issuer">365 Data Science · Mar 2026</div>
-            </div>
+    <!-- Certifications grid -->
+    <div class="fade-in" style="margin-top:44px">
+      <h3 class="certs-section-title"><i data-lucide="award"></i> Key Certifications</h3>
+      <div class="certs-grid">
+
+        <a href="https://www.credly.com/badges/a150b360-dc1a-4c50-bf55-31f8041e3b37/public_url" target="_blank" class="cert-card gold-cert">
+          <div class="cert-card-icon gold"><i data-lucide="star"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">McKinsey Forward Program</div>
+            <div class="cert-card-issuer">McKinsey & Company</div>
           </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Data Governance Fundamentals</div>
-              <div class="cert-issuer">DataCamp · Feb 2026</div>
-            </div>
+          <i data-lucide="external-link" class="cert-card-link"></i>
+        </a>
+
+        <a href="https://learn.365datascience.com/c/c8e332ea25/" target="_blank" class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="trending-up"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Data Strategy</div>
+            <div class="cert-card-issuer">365 Data Science · Mar 2026</div>
           </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Data Literacy Professional</div>
-              <div class="cert-issuer">DataCamp · Feb 2026</div>
-            </div>
+          <i data-lucide="external-link" class="cert-card-link"></i>
+        </a>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="presentation"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Communication & Presentation Skills</div>
+            <div class="cert-card-issuer">365 Data Science · Mar 2026</div>
           </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Introduction to Power BI / DAX / Data Visualization</div>
-              <div class="cert-issuer">DataCamp · Feb 2026</div>
-            </div>
-          </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Database Fundamentals</div>
-              <div class="cert-issuer">MaharaTech – ITIMooca · Jan 2026</div>
-            </div>
-          </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Mastering KPIs</div>
-              <div class="cert-issuer">365 Data Science · Nov 2025</div>
-            </div>
-          </div>
-          <div class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Product Management for AI & Data Science</div>
-              <div class="cert-issuer">365 Data Science · Nov 2025</div>
-            </div>
-          </div>
-          <a href="https://certificates.mavenanalytics.io/bcb1d54f-e8f7-4ea8-9d78-841d521be63d" target="_blank" class="cert-item">
-            <div class="cert-dot"></div>
-            <div>
-              <div class="cert-name">Python Foundations for Data Analysis</div>
-              <div class="cert-issuer">Maven Analytics · Apr 2025</div>
-            </div>
-            <i data-lucide="external-link" class="cert-link-icon"></i>
-          </a>
         </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="shield-check"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Data Governance Fundamentals</div>
+            <div class="cert-card-issuer">DataCamp · Feb 2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="book-open"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Data Literacy Professional</div>
+            <div class="cert-card-issuer">DataCamp · Feb 2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="layout-dashboard"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Power BI / DAX / Data Visualization</div>
+            <div class="cert-card-issuer">DataCamp · Feb 2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="database"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Database Fundamentals</div>
+            <div class="cert-card-issuer">MaharaTech – ITIMooca · Jan 2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="target"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Mastering KPIs</div>
+            <div class="cert-card-issuer">365 Data Science · Nov 2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="cpu"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Product Management for AI & Data Science</div>
+            <div class="cert-card-issuer">365 Data Science · Nov 2025</div>
+          </div>
+        </div>
+
+        <a href="https://certificates.mavenanalytics.io/bcb1d54f-e8f7-4ea8-9d78-841d521be63d" target="_blank" class="cert-card">
+          <div class="cert-card-icon"><i data-lucide="code-2"></i></div>
+          <div class="cert-card-body">
+            <div class="cert-card-name">Python Foundations for Data Analysis</div>
+            <div class="cert-card-issuer">Maven Analytics · Apr 2025</div>
+          </div>
+          <i data-lucide="external-link" class="cert-card-link"></i>
+        </a>
+
       </div>
     </div>
   </div>
